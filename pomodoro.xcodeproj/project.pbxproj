@@ -15,6 +15,7 @@
 		23A119802B6754E200F981DD /* pomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1197F2B6754E200F981DD /* pomodoroTests.swift */; };
 		23A1198A2B6754E200F981DD /* pomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A119892B6754E200F981DD /* pomodoroUITests.swift */; };
 		23A1198C2B6754E200F981DD /* pomodoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1198B2B6754E200F981DD /* pomodoroUITestsLaunchTests.swift */; };
+		23B55D982B6C92100037BC70 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B55D972B6C92100037BC70 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		23A119852B6754E200F981DD /* pomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A119892B6754E200F981DD /* pomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroUITests.swift; sourceTree = "<group>"; };
 		23A1198B2B6754E200F981DD /* pomodoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23B55D972B6C92100037BC70 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				23A1196E2B6754E100F981DD /* ContentView.swift */,
 				23A119702B6754E100F981DD /* Item.swift */,
 				23A119722B6754E200F981DD /* Assets.xcassets */,
+				23B55D972B6C92100037BC70 /* TimerView.swift */,
 				23A119742B6754E200F981DD /* Preview Content */,
 			);
 			path = pomodoro;
@@ -262,6 +265,7 @@
 			files = (
 				23A1196F2B6754E100F981DD /* ContentView.swift in Sources */,
 				23A119712B6754E100F981DD /* Item.swift in Sources */,
+				23B55D982B6C92100037BC70 /* TimerView.swift in Sources */,
 				23A1196D2B6754E100F981DD /* pomodoroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +432,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pomodoro/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Pomodoro App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +462,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pomodoro/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Pomodoro App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
